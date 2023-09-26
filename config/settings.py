@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     "djoser", 
     
     # Local Apps
-    "reservation",
     "restaurant",
 ]
 

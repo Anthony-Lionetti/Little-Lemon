@@ -12,7 +12,7 @@ class Menu(models.Model):
     ])
     
     def __str__(self):
-        return f"{self.title} | {self.price}"
+        return f"{self.title} : {str(self.price)}"
     
 class Booking(models.Model):
     name = models.CharField(max_length=255)
